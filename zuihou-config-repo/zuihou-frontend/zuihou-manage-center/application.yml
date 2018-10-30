@@ -37,3 +37,7 @@ spring:
     static-path-pattern: /static/**
     view:
       suffix: .html
+  redis:
+    host: zuihou.redis.host
+    port: 6379
+      
