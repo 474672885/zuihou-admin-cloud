@@ -18,13 +18,6 @@ shiro:
 zuihou:
   variable:
     gate-way-url-prefix: http://127.0.0.1:9970
-  mysql:
-    admin:
-      database: zuihou_admin_dev       # 根据环境更改
-    host: zuihou.mysql.host     # 根据环境更改
-    port: 3306                  # 根据环境更改
-    username: root              # 根据环境更改
-    password: IkoYifewrqLgzh3ncFNwnEqcw5yyjyaYeofaG9S1os0EDK3Yt44d37q1Wi2mjNiOQM8SEU5q0jcnbmpHEx2EFg==    
 
 server:
   port: 9740
