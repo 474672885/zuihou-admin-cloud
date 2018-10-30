@@ -38,7 +38,7 @@ spring:
     username: guest
   redis:
     host: zuihou.redis.host
-    port: 6379
+#    port: 6379
     pool:
       max-active: 20
       min-idle: 2
