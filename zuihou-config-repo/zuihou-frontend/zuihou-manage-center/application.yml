@@ -40,4 +40,15 @@ spring:
   redis:
     host: zuihou.redis.host
     port: 6379
+    
+hystrix:
+  config:
+    stream:
+      maxConcurrentConnections: 50
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 20000    
       
